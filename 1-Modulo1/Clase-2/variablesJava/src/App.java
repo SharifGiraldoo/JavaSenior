@@ -1,18 +1,37 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        int a; //Declaración
-        a = 10; //Inicialización
-        int b = 5; //Declaración e inicialización
-        a = 20; //Reasignació
+        // int a; //declaracion
+        // a = 10; //inicializacion
+        int a = 10534535; //declaracion e inicializacion
 
-        byte c = 20;
-        short s  = -30000;
-        long l = 100000L;
-        float f = 10.5f;
-        double d = 20.99;
-        char ch = 'A';
+        byte b = 20;
+        short s = -33;
+
+        long l = 123_456_789L;
+        float f = 3.1434332F;
+        System.out.println(f);
+
+        double d = 2.9999999999d;
+
         boolean bool = true;
+        char c = 'A';
+
+        //escribir como unicode un caracter chino
+        char c2 = '\u4F60'; //el caractr chino 你
+        System.out.println(c2);
+
+        //Strings
+        String str = "Hola\t que\n tal";
+        str = "\"Hola que tal\"";
+        System.out.println(str);
+
+        //string multilineas
+        String str2 = """
+                efefwfreer
+                regerge     egeg  egerrg
+                greggegege
+                """;
+        System.out.println(str2);
 
     }
 }
