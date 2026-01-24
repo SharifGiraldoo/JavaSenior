@@ -1,0 +1,20 @@
+2026-01-24 16:04:14 INFO  Main:13 - Inicio del programa
+2026-01-24 16:04:14 INFO  Main:20 - Creando empleado: Empleado [nombre=Juan Perez, edad=30, salario=50000.0]
+2026-01-24 16:04:14 INFO  Main:21 - Creando gerente: Gerente [departamento=Ventas]
+2026-01-24 16:04:14 INFO  Main:25 - Salario del empleado después del aumento: 55000.0
+2026-01-24 16:04:14 INFO  Main:28 - Salario del gerente después del aumento: 96000.0
+2026-01-24 16:04:14 INFO  Main:31 - Fin del programa
+2026-01-24 16:04:14 INFO  Main:35 - Esto es un mensaje informativo
+2026-01-24 16:04:14 WARN  Main:36 - Esto es un mensaje de advertencia
+2026-01-24 16:04:14 ERROR Main:37 - Esto es un mensaje de error
+2026-01-24 16:04:14 FATAL Main:38 - Esto es un mensaje fatal
+2026-01-24 16:04:52 INFO  Main:13 - Inicio del programa
+2026-01-24 16:04:52 INFO  Main:20 - Creando empleado: Empleado [nombre=Juan Perez, edad=30, salario=50000.0]
+2026-01-24 16:04:52 INFO  Main:21 - Creando gerente: Gerente [departamento=Ventas]
+2026-01-24 16:04:52 INFO  Main:25 - Salario del empleado después del aumento: 55000.0
+2026-01-24 16:04:52 INFO  Main:28 - Salario del gerente después del aumento: 96000.0
+2026-01-24 16:04:52 INFO  Main:31 - Fin del programa
+2026-01-24 16:04:52 INFO  Main:35 - Esto es un mensaje informativo
+2026-01-24 16:04:52 WARN  Main:36 - Esto es un mensaje de advertencia
+2026-01-24 16:04:52 ERROR Main:37 - Esto es un mensaje de error
+2026-01-24 16:04:52 FATAL Main:38 - Esto es un mensaje fatal
