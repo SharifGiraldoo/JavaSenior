@@ -245,10 +245,9 @@ Se aceptan contribuciones que enriquezcan el contenido del repositorio. Si desea
 
 Para consultas académicas, contribuciones o colaboraciones:
 
-- 👨‍💻 **Autor**: Sharif Giraldo Obando  
-- 🎓 **Programa**: Ingeniería de Sistemas y Computación  
-- 🏫 **Universidad**: Universidad del Quindío – Armenia, Colombia  
-- 📧 **Correo institucional**: sharif.giraldoo@uqvirtual.edu.co  
+- 👨‍💻 **Autor**: Sharif Giraldo Obando   
+- 🏫 **Ubicación**: Armenia, Quindío, Colombia  
+- 📧 **Correo**: sharifgiraldo23@gmail.com 
 - 🔗 **GitHub**: [SharifGiraldoo](https://github.com/SharifGiraldoo)  
 
 ---
