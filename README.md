@@ -1,13 +1,13 @@
 # 📚 JavaSenior - Curso de Java
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SharifGiraldoo/JavaSenior?color=blue&label=Tamaño%20del%20Repo)
+![GitHub repo size](https://img.shields.io/github/repo-size/SharifGiraldoo/JavaSenior?color=yellow&label=Tamaño%20del%20Repo)
 ![GitHub language count](https://img.shields.io/github/languages/count/SharifGiraldoo/JavaSenior?color=purple&label=Lenguajes)
 ![GitHub top language](https://img.shields.io/github/languages/top/SharifGiraldoo/JavaSenior?color=orange&label=Lenguaje%20Principal)
 ![GitHub license](https://img.shields.io/github/license/SharifGiraldoo/JavaSenior?color=green&label=Licencia)
 
 ---
 
-Este repositorio contiene los **trabajos, actividades y desarrollos prácticos** realizados en el curso de **Java**, organizados de manera modular para facilitar el aprendizaje progresivo desde los fundamentos hasta conceptos de programación orientada a objetos.
+Este repositorio contiene los **trabajos, actividades y desarrollos prácticos** realizados en el curso de **Java**, organizados de manera modular para facilitar el aprendizaje progresivo desde los fundamentos hasta conceptos avanzados de programación orientada a objetos y manejo de excepciones.
 
 Su propósito es organizar y centralizar el material académico, facilitando el aprendizaje autónomo y el uso de buenas prácticas de programación y control de versiones.
 
@@ -28,13 +28,15 @@ Su propósito es organizar y centralizar el material académico, facilitando el 
 
 ## 📝 Descripción General
 
-El curso de **Java** está estructurado en módulos progresivos que abarcan desde la configuración del entorno de desarrollo hasta la programación orientada a objetos.
+El curso de **Java** está estructurado en módulos progresivos que abarcan desde la configuración del entorno de desarrollo hasta conceptos avanzados de programación orientada a objetos, manejo de excepciones y registro de eventos.
 
 En este repositorio se recopilan los **ejercicios, prácticas y proyectos**, organizados por módulos, con el objetivo de:
 
 - Desarrollar competencias en **programación con Java**.  
 - Dominar los **fundamentos de la programación orientada a objetos**.  
 - Aplicar principios de **herencia, polimorfismo e interfaces**.  
+- Implementar **manejo robusto de excepciones**.  
+- Utilizar sistemas de **logging** para el seguimiento de aplicaciones.  
 - Promover el uso de **herramientas de control de versiones** como Git/GitHub.  
 
 Este espacio está diseñado para ser un recurso de consulta, práctica y referencia para estudiantes.
@@ -48,17 +50,27 @@ La organización del proyecto sigue un esquema modular, donde cada carpeta repre
 ```
 JavaSenior/
 │
+├── .vscode/                        # Configuración de Visual Studio Code
+│
 ├── 1-Modulo1/
-│   ├── Clase-1/              # Configuración del entorno y primer proyecto
-│   ├── Clase-2/              # Variables, tipos de datos y operadores
-│   ├── Clase-3/              # Estructuras de control (condicionales y bucles)
-│   ├── Clase-4/              # Funciones
-│   └── Proyecto Final/       # Sistema de gestión de productos
+│   ├── Clase-1/                    # Configuración del entorno y primer proyecto
+│   ├── Clase-2/variablesJava/      # Variables, tipos de datos y operadores
+│   ├── Clase-3/                    # Estructuras de control
+│   ├── Clase-4/Funciones/          # Funciones y métodos
+│   └── Proyecto Final/GestionProductos/  # Sistema de gestión de productos
 │
 ├── 2-Modulo2/
-│   ├── 2-noviembre22/        # Herencia, polimorfismo e interfaces
-│   └── ProyectoFinalModulo2/ # Proyecto Spotify (POO)
+│   ├── Clase-1/                    # Introducción a POO
+│   ├── Clase-2/                    # Clases y objetos
+│   ├── Clase-3/                    # Herencia
+│   ├── Clase-4/                    # Polimorfismo e interfaces
+│   └── ProyectoFinalModulo2/       # Proyecto Spotify
 │
+├── 3-Modulo3/
+│   ├── Clase-1/                    # Manejo de excepciones
+│   └── Clase-2/                    # Logging y registro de eventos
+│
+├── logs/                           # Archivos de registro generados
 ├── LICENSE
 └── README.md
 ```
@@ -161,17 +173,49 @@ Consulta el README o material de cada clase para instrucciones específicas.
 
 ### 📗 Módulo 2 - Programación Orientada a Objetos
 
-#### Conceptos Fundamentales
-- Clases y objetos  
+#### Clase 1: Introducción a POO
+- Conceptos fundamentales de la programación orientada a objetos  
+- Diferencias entre programación estructurada y POO  
+
+#### Clase 2: Clases y Objetos
+- Definición de clases y creación de objetos  
+- Atributos y métodos  
 - Constructores y encapsulamiento  
-- Herencia y polimorfismo  
+
+#### Clase 3: Herencia
+- Concepto de herencia y reutilización de código  
+- Clases padre e hijas  
+- Palabra clave `extends` y `super`  
+
+#### Clase 4: Polimorfismo e Interfaces
+- Polimorfismo y sobrescritura de métodos  
 - Interfaces y clases abstractas  
+- Implementación de contratos con `implements`  
 
 #### Proyecto Final Módulo 2: Proyecto Spotify
 - Modelado de clases (`Cancion`, `Playlist`, `BibliotecaMusical`, `CuentaSpotify`)  
 - Herencia con clase abstracta `Multimedia`  
 - Implementación de interfaz `Reproducible`  
 - Gestión de listas de reproducción y biblioteca musical  
+
+---
+
+### 📙 Módulo 3 - Manejo de Excepciones y Logging
+
+#### Clase 1: Excepciones
+- Tipos de excepciones en Java (checked y unchecked)  
+- Bloques `try-catch-finally`  
+- Lanzamiento de excepciones con `throw` y `throws`  
+- Creación de excepciones personalizadas  
+- Mejores prácticas en el manejo de errores  
+
+#### Clase 2: Logging
+- Importancia del logging en aplicaciones  
+- Uso de `java.util.logging`  
+- Niveles de logging (SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST)  
+- Configuración de handlers y formatters  
+- Registro de eventos en archivos  
+- Buenas prácticas para el seguimiento de aplicaciones  
 
 ---
 
@@ -201,9 +245,10 @@ Se aceptan contribuciones que enriquezcan el contenido del repositorio. Si desea
 
 Para consultas académicas, contribuciones o colaboraciones:
 
-- 👨‍💻 **Autor**: Sharif Giraldo Obando   
-- 🏫 **Ubicación**: Armenia, Colombia  
-- 📧 **Correo de contacto**: sharifgiraldo23@gmail.com 
+- 👨‍💻 **Autor**: Sharif Giraldo Obando  
+- 🎓 **Programa**: Ingeniería de Sistemas y Computación  
+- 🏫 **Universidad**: Universidad del Quindío – Armenia, Colombia  
+- 📧 **Correo institucional**: sharif.giraldoo@uqvirtual.edu.co  
 - 🔗 **GitHub**: [SharifGiraldoo](https://github.com/SharifGiraldoo)  
 
 ---
