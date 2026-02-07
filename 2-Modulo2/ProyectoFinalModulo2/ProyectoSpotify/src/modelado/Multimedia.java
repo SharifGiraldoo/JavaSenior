@@ -1,42 +1,60 @@
 package modelado;
 
+/**
+ * Clase abstracta que representa un elemento multimedia genérico.
+ * Sirve como superclase para diferentes tipos de contenido de audio.
+ */
 public abstract class Multimedia {
-    private String titulo;
-    private int duracion; // Duracion en segundos
-
-    public Multimedia(String titulo, int duracion) {
-        this.titulo = titulo;
-        this.duracion = duracion;
-    }
-
+    protected String titulo;
+    protected int duracionSegundos;
+    
+    /**
+     * Constructor por defecto
+     */
     public Multimedia() {
-        this.titulo = "Desconocido";
-        this.duracion = 0;
+        this.titulo = "Sin título";
+        this.duracionSegundos = 0;
     }
-
+    
+    /**
+     * Constructor con título (Sobrecarga)
+     * @param titulo El título del elemento multimedia
+     */
     public Multimedia(String titulo) {
         this.titulo = titulo;
-        this.duracion = 0;
+        this.duracionSegundos = 0;
     }
-
+    
+    /**
+     * Constructor completo (Sobrecarga)
+     * @param titulo El título del elemento multimedia
+     * @param duracionSegundos La duración en segundos
+     */
+    public Multimedia(String titulo, int duracionSegundos) {
+        this.titulo = titulo;
+        this.duracionSegundos = duracionSegundos;
+    }
+    
+    // Getters y Setters
     public String getTitulo() {
         return titulo;
     }
-
+    
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
-    public int getDuracion() {
-        return duracion;
+    
+    public int getDuracionSegundos() {
+        return duracionSegundos;
     }
-
-    public void setDuracion(int duracion) {
-        this.duracion = duracion;
+    
+    public void setDuracionSegundos(int duracionSegundos) {
+        this.duracionSegundos = duracionSegundos;
     }
-
-    //Este método es abstracto y debe ser implementado por las subclases
+    
+    /**
+     * Método abstracto que debe ser implementado por las subclases
+     * @return Información detallada del elemento multimedia
+     */
     public abstract String getInfo();
-    
-    
 }
